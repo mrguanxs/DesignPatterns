@@ -6,5 +6,8 @@ package singletons;
  * 单例模式
  */
 public class Singleton {
-    //TODO 单例模式
+
+    public Singleton(){
+
+    }
 }
