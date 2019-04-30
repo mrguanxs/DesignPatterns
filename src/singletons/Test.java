@@ -15,15 +15,18 @@ public class Test {
 //            System.out.println(Singleton6.getInstance());
 //            System.out.println(Singleton7.getInstance());
 //            System.out.println(Singleton8.INSTANCE.hashCode());
-            SingletonManager.registerService("singleton", new Singleton());
-            Singleton singleton1 = (Singleton)SingletonManager.getService("singleton");
-            Singleton singleton2 = (Singleton)SingletonManager.getService("singleton");
-            Singleton singleton3 = (Singleton)SingletonManager.getService("singleton");
-            System.out.println(singleton1);
-            System.out.println(singleton2);
-            System.out.println(singleton3);
+//            SingletonManager.registerService("singleton", new Singleton());
+//            Singleton singleton1 = (Singleton)SingletonManager.getService("singleton");
+//            Singleton singleton2 = (Singleton)SingletonManager.getService("singleton");
+//            Singleton singleton3 = (Singleton)SingletonManager.getService("singleton");
+//            System.out.println(singleton1);
+//            System.out.println(singleton2);
+//            System.out.println(singleton3);
+
         }
 
-
+        new Singleton();
+        //new Singleton.B();
+        //new Singleton().new A();
     }
 }
