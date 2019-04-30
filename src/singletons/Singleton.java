@@ -3,7 +3,7 @@ package singletons;
 /**
  * @author mrguanxs@163.com
  * @date 2019/4/30 11:01
- * 单例模式
+ * 内部类加载时机
  * 内部类在外部类加载时不会加载
  */
 public class Singleton {

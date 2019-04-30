@@ -6,5 +6,15 @@ package factorys.simpleFactory;
  * 简单工厂
  */
 public class SimpleFactory {
-    //TODO　简单工厂
+
+    public static void main(String[] args) {
+        try {
+            //告诉司机开什么车
+            Car car = Driver.driverCar("Benz");
+            //下命令：开车
+            car.drive();
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
+    }
 }
