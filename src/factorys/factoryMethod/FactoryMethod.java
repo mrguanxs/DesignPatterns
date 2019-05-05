@@ -5,6 +5,7 @@ package factorys.factoryMethod;
  * @date 2019/4/30 10:46
  * 工厂方法
  * 优点：符合开闭原则，新产品产生不用修改已有代码，只需新加即可
+ * 缺点：类爆炸
  */
 public class FactoryMethod {
 
