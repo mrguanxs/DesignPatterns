@@ -4,6 +4,7 @@ package factorys.simpleFactory;
  * @author mrguanxs@163.com
  * @date 2019/4/30 10:47
  * 简单工厂
+ * 不符合开闭原则，新增产品需要修改Driver中代码
  */
 public class SimpleFactory {
 
