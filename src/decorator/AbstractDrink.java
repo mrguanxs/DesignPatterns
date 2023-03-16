@@ -1,13 +1,11 @@
 package decorator;
 
-import java.math.BigDecimal;
-
 /**
  * @author mrguanxs@163.com
  * @date 2019/4/30 10:14
  * 装饰模式 以饮料加奶加糖为例
  */
-public abstract class AbstractDecorator {
+public abstract class AbstractDrink {
 
     private String desc = "Unknown";
 
@@ -22,14 +20,14 @@ public abstract class AbstractDecorator {
     public abstract double cost();
 
     public static void main(String[] args) {
-        AbstractDecorator orange = new OrangeDrink();
+        AbstractDrink orange = new OrangeDrink();
         orange = new AddMilk(orange);
         orange = new AddSugar(orange);
 
         System.out.println(orange.getDesc());
         System.out.println(orange.cost());
 
-        AbstractDecorator apple = new AppleDrink();
+        AbstractDrink apple = new AppleDrink();
         apple = new AddMilk(apple);
         apple = new AddSugar(apple);
         System.out.println(apple.getDesc());

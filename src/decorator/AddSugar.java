@@ -4,11 +4,11 @@ package decorator;
  * @Author guan
  * @Date 2023/3/16
  */
-public class AddSugar extends AbstractAddSth {
+public class AddSugar extends AbstractAddSthDecorator {
 
-    private AbstractDecorator decorator;
+    private AbstractDrink decorator;
 
-    public AddSugar(AbstractDecorator decorator) {
+    public AddSugar(AbstractDrink decorator) {
         this.decorator = decorator;
     }
 

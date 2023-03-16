@@ -4,7 +4,7 @@ package decorator;
  * @Author guan
  * @Date 2023/3/16
  */
-public class AppleDrink extends AbstractDecorator {
+public class AppleDrink extends AbstractDrink {
 
     @Override
     public String getDesc() {
