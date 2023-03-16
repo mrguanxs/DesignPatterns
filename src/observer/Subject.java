@@ -20,12 +20,13 @@ public class Subject {
     }
 
     private void notifyObserves(){
+        System.out.println("房子降价了,快来买啊,价格:" + price);
         observeList.forEach(t->t.update(price));
     }
 
     public void setPrice(Integer price) {
         this.price = price;
-        notifyObserves();
+        this.notifyObserves();
     }
 
 

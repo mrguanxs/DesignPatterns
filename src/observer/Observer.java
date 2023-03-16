@@ -10,7 +10,6 @@ import java.util.Random;
 public class Observer {
 
     public void update(Integer price){
-        System.out.println(this.toString() + "房子降价了,快来买啊,价格:" + price);
         int i = new Random().nextInt(10);
         if(price > i){
             System.out.println(this.toString() + "说太贵了,不低于"+ i + "不买!");

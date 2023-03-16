@@ -7,6 +7,7 @@
     <list default="true" id="b1a9e2cd-ed5c-4d32-9deb-2167670d88e8" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/observer/Observer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/observer/Observer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/observer/Subject.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/observer/Subject.java" afterDir="false" />
     </list>
     <list id="3a1220ba-f1e4-4206-8e1a-825cbddd3453" name="忽略" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -175,7 +176,7 @@
       <workItem from="1671419597607" duration="30000" />
       <workItem from="1677738491336" duration="313000" />
       <workItem from="1678065881032" duration="80000" />
-      <workItem from="1678932679011" duration="3994000" />
+      <workItem from="1678932679011" duration="4181000" />
     </task>
     <servers />
   </component>
