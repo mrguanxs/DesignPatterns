@@ -6,8 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="b1a9e2cd-ed5c-4d32-9deb-2167670d88e8" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/observer/Observer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/observer/Observer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/observer/Subject.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/observer/Subject.java" afterDir="false" />
     </list>
     <list id="3a1220ba-f1e4-4206-8e1a-825cbddd3453" name="忽略" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -46,7 +44,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1557057480350" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$USER_HOME$/OpenSource/mybatis-3/pom.xml" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
@@ -176,7 +174,8 @@
       <workItem from="1671419597607" duration="30000" />
       <workItem from="1677738491336" duration="313000" />
       <workItem from="1678065881032" duration="80000" />
-      <workItem from="1678932679011" duration="4181000" />
+      <workItem from="1678932679011" duration="6448000" />
+      <workItem from="1679275897077" duration="897000" />
     </task>
     <servers />
   </component>
